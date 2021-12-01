@@ -48,6 +48,9 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # Doze
 PRODUCT_PACKAGES += \
     SamsungDoze
+    
+# Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # FlipFlap
 PRODUCT_PACKAGES += \
